@@ -1,1 +1,27 @@
+/* Styling for the homepage banner injection */
+.custom-home-banner-container {
+    width: 100%;
+    text-align: center;
+    margin: 20px 0; /* Adds some nice breathing room above and below */
+}
 
+.custom-home-banner-link {
+    text-decoration: none;
+    display: block;
+}
+
+.custom-home-banner-img {
+    width: 100%;
+    height: auto;
+    display: block;
+    border-radius: 8px; /* Slightly smoother corners */
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1); /* Adds a subtle professional lift */
+    border: 0;
+    margin: 0 auto;
+    transition: transform 0.3s ease; /* Makes it feel interactive */
+}
+
+/* Hover effect: the image will slightly grow when hovered over */
+.custom-home-banner-img:hover {
+    transform: scale(1.01);
+}
