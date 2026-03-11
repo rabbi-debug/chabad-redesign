@@ -8,10 +8,11 @@
         // 2. Add a special class to the body so our CSS knows to turn on
         document.body.classList.add('dev-active');
 
-        // 3. Inject our CSS file from GitHub
+        // 3. Inject our CSS file from GitHub (CORRECTED LINK BELOW)
         const link = document.createElement('link');
         link.rel = 'stylesheet';
-        link.href = 'github.com/rabbi-debug/chabad-redesign';
+        // Note: Added 'https://', changed '.com' to '.io', and added '/styles.css'
+        link.href = 'https://rabbi-debug.github.io/chabad-redesign/styles.css';
         document.head.appendChild(link);
 
         // 4. Example: Change the site title just to prove it works
