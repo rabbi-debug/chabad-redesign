@@ -11,7 +11,7 @@
         // 3. Inject our CSS file from GitHub
         const link = document.createElement('link');
         link.rel = 'stylesheet';
-        link.href = 'https://rabbi-debug.github.io/chabad-redesign/';
+        link.href = 'github.com/rabbi-debug/chabad-redesign';
         document.head.appendChild(link);
 
         // 4. Example: Change the site title just to prove it works
